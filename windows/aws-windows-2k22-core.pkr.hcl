@@ -28,10 +28,10 @@ source "amazon-ebs" "windows-core" {
   user_data_file  = "./windows2k22_bootstrap.txt"
   vpc_filter {
     filters = {
-      "isDefault" : "false",
+      "isDefault" : "true",
     }
   }
-  subnet_id = "subnet-08a31227cf13a4fb5"
+  subnet_id = "subnet-c6c41d8b"
 }
 
 build {

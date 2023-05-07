@@ -31,10 +31,10 @@ source "amazon-ebs" "windows-base" {
   user_data_file = "./windows2k19_bootstrap.txt"
   vpc_filter {
     filters = {
-      "isDefault" : "false",
+      "isDefault" : "true",
     }
   }
-  subnet_id = "subnet-08a31227cf13a4fb5"
+  subnet_id = "subnet-c6c41d8b"
 }
 
 build {

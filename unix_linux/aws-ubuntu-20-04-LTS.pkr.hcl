@@ -23,10 +23,10 @@ source "amazon-ebs" "aws-ubuntu-20-04-LTS" {
   ssh_username   = "ubuntu"
   vpc_filter {
     filters = {
-      "isDefault" : "false",
+      "isDefault" : "true",
     }
   }
-  subnet_id = "subnet-08a31227cf13a4fb5"
+  subnet_id = "subnet-c6c41d8b"
 }
 
 build {
