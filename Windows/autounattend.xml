@@ -1,0 +1,6 @@
+<SynchronousCommand wcm:action="add">
+  <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File a:\windows-update.ps1</CommandLine>
+  <Description>Run Windows Update</Description>
+  <Order>13</Order>
+  <RequiresUserInput>true</RequiresUserInput>
+</SynchronousCommand>
